@@ -2,7 +2,7 @@
 ![alt text](https://github.com/moonman312/blackhat-blackjack/blob/master/The_Hangover_Blackjack_Scene.gif "MATHS")
 
 
-A Blackjack coach. Strategies and card counting methods will be added. ML version coming soon
+A Blackjack coach. More strategies and card counting methods will be added. ML version coming soon
 
 
 
