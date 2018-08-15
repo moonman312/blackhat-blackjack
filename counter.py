@@ -1,5 +1,5 @@
 import math
-class HiLowCounter():
+class HiLowCounter:
 
     def __init__(self, decks_remaining):
         self.decks_remaining = decks_remaining
@@ -12,9 +12,9 @@ class HiLowCounter():
     def set_count(self, new_cards):
         for card in new_cards:
             if card >= 2 and card <= 6:
-                self.count += 1
+                self.running_count += 1
             elif card == 1 or card >= 10:
-                self.count -= 1
+                self.running_count -= 1
         self.adjust_decks_remaining(len(new_cards))
         return
 
@@ -27,4 +27,4 @@ class HiLowCounter():
         return
 
     def get_bet_amount(self):
-        return self.get_true_count - 1
+        return self.get_true_count() - 1
