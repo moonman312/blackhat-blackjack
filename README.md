@@ -1,6 +1,6 @@
 # Blackhat Blackjack
 ![alt text][logo]
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text"
+[logo]: https://github.com/moonman312/blackhat-blackjack/blob/master/The_Hangover_Blackjack_Scene.gif "Maths"
 
 A Blackjack coach. Strategies and card counting methods will be added. ML version coming soon
 
